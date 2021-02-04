@@ -15,5 +15,10 @@
 // let fun = undefined; //not recommended
 // console.log(fun);
 
-let ages = [2, 5, 9]
-console.log(ages[11]);
+// let ages = [2, 5, 9]
+// console.log(ages[11]);
+
+function doSomething(x,y){
+    console.log(y);
+}
+doSomething(32);
